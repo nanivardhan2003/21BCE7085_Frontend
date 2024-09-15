@@ -1,0 +1,15 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Gilroy', sans-serif;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+.results-section {
+  flex: 1;
+}

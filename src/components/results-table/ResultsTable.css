@@ -1,0 +1,71 @@
+.results-table {
+    margin: 16px;
+}
+
+.results-table p {
+    font-size: 12px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: 20px;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    font-size: 16px;
+}
+
+tbody tr:first-child {
+    border-top: 1px solid #ccc;
+}
+
+
+.logo-placeholder {
+    width: 158px;
+    height: 120px;
+    background-color: #e5e7eb;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.small-text {
+    font-size: 14px;
+    color: #1A1A1A;
+    font-weight: 400;
+}
+
+.status-live {
+    color: #16a34a;
+}
+
+.status-expiry {
+    color: #ef4444;
+}
+
+.class-tags {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.class-tags span {
+    background-color: #e5e7eb;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.refresh-icon {
+    margin-right: 2px;
+    color: #EC4A4A;
+}
+
+.flask-icon {
+    transform: rotate(45deg);
+}
